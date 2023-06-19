@@ -1,0 +1,51 @@
+[debug] [2023-06-19T20:58:57.281Z] ----------------------------------------------------------------------
+[debug] [2023-06-19T20:58:57.285Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\thi_c\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-06-19T20:58:57.286Z] CLI Version:   12.4.0
+[debug] [2023-06-19T20:58:57.287Z] Platform:      win32
+[debug] [2023-06-19T20:58:57.287Z] Node Version:  v18.16.0
+[debug] [2023-06-19T20:58:57.289Z] Time:          Mon Jun 19 2023 17:58:57 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2023-06-19T20:58:57.289Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-19T20:58:57.550Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-19T20:58:57.551Z] > authorizing via signed-in user (thiago.moreira.job@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-06-19T20:58:57.594Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-19T20:58:57.595Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-19T20:58:57.596Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-06-19T20:58:57.643Z] [hub] writing locator at C:\Users\thi_c\AppData\Local\Temp\hub-tiktok---jornadadev-185fb.json
+[debug] [2023-06-19T20:58:57.758Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/tiktok---jornadadev-185fb/sites 
+[debug] [2023-06-19T20:58:58.953Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/tiktok---jornadadev-185fb/sites 200
+[debug] [2023-06-19T20:58:58.953Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/tiktok---jornadadev-185fb/sites {"sites":[{"name":"projects/tiktok---jornadadev-185fb/sites/tiktok---jornadadev-185fb","defaultUrl":"https://tiktok---jornadadev-185fb.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-06-19T20:58:58.954Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tiktok---jornadadev-185fb/webApps/-/config [none]
+[debug] [2023-06-19T20:58:59.672Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tiktok---jornadadev-185fb/webApps/-/config 200
+[debug] [2023-06-19T20:58:59.672Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tiktok---jornadadev-185fb/webApps/-/config {"projectId":"tiktok---jornadadev-185fb","storageBucket":"tiktok---jornadadev-185fb.appspot.com","locationId":"southamerica-east1","apiKey":"AIzaSyBG-BMkqE3wvPnGLDzF0hWvWTbVESaBr8k","authDomain":"tiktok---jornadadev-185fb.firebaseapp.com","messagingSenderId":"572389789122"}
+[debug] [2023-06-19T20:58:59.679Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tiktok---jornadadev-185fb [none]
+[debug] [2023-06-19T20:59:00.077Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tiktok---jornadadev-185fb 200
+[debug] [2023-06-19T20:59:00.077Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tiktok---jornadadev-185fb {"projectId":"tiktok---jornadadev-185fb","projectNumber":"572389789122","displayName":"TikTok - JornadaDev","name":"projects/tiktok---jornadadev-185fb","resources":{"hostingSite":"tiktok---jornadadev-185fb","storageBucket":"tiktok---jornadadev-185fb.appspot.com","locationId":"southamerica-east1"},"state":"ACTIVE","etag":"1_b257a0f0-a4d6-47b2-9f60-4222be0f77bc"}
+[info] i  hosting[tiktok---jornadadev-185fb]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[tiktok---jornadadev-185fb]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [19/Jun/2023:20:59:08 +0000] "GET / HTTP/1.1" 200 660 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jun/2023:20:59:08 +0000] \"GET / HTTP/1.1\" 200 660 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jun/2023:20:59:08 +0000] "GET /static/css/main.c6ade3a6.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jun/2023:20:59:08 +0000] \"GET /static/css/main.c6ade3a6.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jun/2023:20:59:08 +0000] "GET /static/js/main.cfa69f32.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jun/2023:20:59:08 +0000] \"GET /static/js/main.cfa69f32.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jun/2023:20:59:09 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jun/2023:20:59:09 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jun/2023:20:59:09 +0000] "GET /manifest.json HTTP/1.1" 200 492 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jun/2023:20:59:09 +0000] \"GET /manifest.json HTTP/1.1\" 200 492 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jun/2023:20:59:09 +0000] "GET /logo192.png HTTP/1.1" 200 5347 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jun/2023:20:59:09 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jun/2023:20:59:57 +0000] "GET / HTTP/1.1" 200 660 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jun/2023:20:59:57 +0000] \"GET / HTTP/1.1\" 200 660 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jun/2023:21:00:46 +0000] "GET / HTTP/1.1" 200 660 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jun/2023:21:00:46 +0000] \"GET / HTTP/1.1\" 200 660 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[debug] [2023-06-19T21:49:44.559Z] Received signal SIGHUP 1
