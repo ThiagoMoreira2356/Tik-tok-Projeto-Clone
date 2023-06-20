@@ -1,0 +1,22 @@
+.Video__Sidebar {
+    position: absolute;
+    top: 37%;
+    right: 10px;
+    color: white;
+}
+
+.Video__Sidebar__Botao {
+    padding: 11px;
+    text-align: center;
+
+}
+
+
+@media only screen and (max-width: 440px){
+
+    .Video__Sidebar {
+        top: 35%;
+        
+    }
+
+}
